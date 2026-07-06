@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(curl -sf http://localhost:8791/index.html)",
+      "Bash(chromium-cli --help)",
+      "Bash(sed -i \"s#index.html?cachebust=' + Date.now\\(\\)#index.html#\" drive2.js)",
+      "Bash(node drive2.js)",
+      "Bash(node drive4.js)",
+      "Bash(node drive5.js)"
+    ]
+  }
+}
