@@ -8,7 +8,17 @@
       "Bash(sed -i \"s#index.html?cachebust=' + Date.now\\(\\)#index.html#\" drive2.js)",
       "Bash(node drive2.js)",
       "Bash(node drive4.js)",
-      "Bash(node drive5.js)"
+      "Bash(node drive5.js)",
+      "Bash(file images/portfolio-logo-0*.jpeg images/logo-pixelo.png)",
+      "Bash(mv \"portfolio-logo-03.png.jpeg\" \"portfolio-logo-03.jpg\")",
+      "Bash(mv \"portfolio-logo-04.png.jpeg\" \"portfolio-logo-04.jpg\")",
+      "Bash(mv \"portfolio-logo-05.png.jpeg\" \"portfolio-logo-05.jpg\")",
+      "Bash(mv \"portfolio-logo-06.png.jpeg\" \"portfolio-logo-06.jpg\")",
+      "Bash(mv \"portfolio-logo-07.png.jpeg\" \"portfolio-logo-07.jpg\")",
+      "Bash(node drive6.js)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\c--Users-user-Desktop-Saskia-Intania-project-SE-pixelo-web\\0c2ffd45-f5ef-44a0-9387-87b6bf77c0b0\\scratchpad\\pw-test"
     ]
   }
 }
